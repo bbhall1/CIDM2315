@@ -6,3 +6,5 @@ Homework 1 added to rep
 Homework 2Q1 added to rep
 Homework 2Q2 added to rep
 Homework 2bonus added to rep
+2/6/2023
+Homework3 added to rep
