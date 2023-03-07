@@ -84,18 +84,18 @@ class Program
         s1.studentName = "Lisa";
         s1.classEnroll = "Java";
         s1.setGrade(90);
-        Console.WriteLine($"Student {s1.studentName}, he teaches {s1.classEnroll}, his salary is {s1.GetGrade()}");
+        Console.WriteLine($"Student {s1.studentName} enrolls in {s1.classEnroll} and the grade is {s1.GetGrade()}");
 
         Student s2 = new Student();
         s2.studentName = "Tom";
         s2.classEnroll = "Math";
         s2.setGrade(80);
-        Console.WriteLine($"The second student is {s2.studentName}, he teaches {s2.classEnroll}, his salary is {s2.GetGrade()}");
+        Console.WriteLine($"The second student is {s2.studentName} enrolls in {s2.classEnroll} and the grade is {s2.GetGrade()}");
 
-        double SalaryDiff = (9000-8000);
+        double SalaryDiff = (p1.GetSalary()-p2.GetSalary());
         Console.WriteLine($"The salary difference between {p1.profName} and {p2.profName} is: {SalaryDiff}");
 
-        double GradeSum = (90+80);
+        double GradeSum = (s1.GetGrade()+s2.GetGrade());
         Console.WriteLine($"The total grade of {s1.studentName} and {s2.studentName} is: {GradeSum}");
 
     }
