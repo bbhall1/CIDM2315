@@ -12,3 +12,5 @@ Homework3 added to rep
 Homework4 added to rep
 2/20/2023
 Homework5 partial done added to rep
+3/6/2023
+Homework6 added to rep
